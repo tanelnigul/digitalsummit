@@ -740,7 +740,7 @@ a:hover {
   }
 }
 .contact__wrapper__rows__row__image:last-child {
-  background-image: url('img/3-D-Jenny-Robot.jpg');
+  background-image: url('img/pic.png');
 }
 .contact__wrapper__rows__row__text {
   flex: 1;
