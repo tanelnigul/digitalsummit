@@ -527,13 +527,19 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .pricing__wrapper__table__column__top__price__info {
   font-family: AinoRegular;
   font-size: 12px;
   line-height: 14px;
   margin-bottom: 4px;
+}
+.pricing__wrapper__table__column__top__vat {
+  margin-top: 0.8rem;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
 }
 .pricing__wrapper__table__column__rows {
   display: flex;
