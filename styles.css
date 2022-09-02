@@ -81,12 +81,13 @@ html {
     padding: 80px 2rem;
   }
 }
-.section.nopadding {
-  padding-top: 0;
-}
 .section.fullwidth {
   padding: 0;
   padding-bottom: 160px;
+}
+.section.nopadding {
+  padding-top: 0;
+  padding-bottom: 80px;
 }
 @media (max-width: 1025px) {
   .section.desktop {
@@ -634,6 +635,12 @@ a:hover {
 }
 .pricing__wrapper__packages__package__price:last-child {
   margin-bottom: 3rem;
+}
+.pricing__wrapper__packages__package__vat {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 14px;
+  line-height: 14px;
 }
 .pricing__wrapper__packages__package__benefits {
   width: 100%;
