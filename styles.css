@@ -784,6 +784,20 @@ a:hover {
     line-height: 41px;
   }
 }
+.flags__wrapper__image {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+}
+.flags__wrapper__image img {
+  width: 100%;
+}
+.flags__wrapper__image.logos {
+  margin-top: 2rem;
+}
+.flags__wrapper__button {
+  margin-top: 6rem;
+}
 .pricing__wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -831,7 +845,7 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 290px;
+  min-height: 320px;
   min-width: 323px;
   margin-right: 1rem;
 }
@@ -965,6 +979,10 @@ a:hover {
   border-radius: 75px;
   border: 1px solid black;
 }
+.pricing__wrapper__row__col__bottom__button:hover {
+  color: white;
+  background-color: black;
+}
 .pricing__wrapper__row__col__bottom__button.wide {
   margin: 0;
   margin-top: 1rem;
@@ -972,6 +990,10 @@ a:hover {
 .pricing__wrapper__row__col__bottom__button.blue {
   color: white;
   border-color: white;
+}
+.pricing__wrapper__row__col__bottom__button.blue:hover {
+  color: black;
+  background-color: white;
 }
 .contact__wrapper {
   margin: 0 auto;

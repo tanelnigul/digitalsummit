@@ -896,6 +896,25 @@ a {
             }
         }
 
+        &__image {
+            width: 100%;
+            height: auto;
+            max-width: 550px;
+
+            img {
+                width: 100%;
+            }
+
+            &.logos {
+                margin-top: 2rem;
+
+            }
+        }
+
+        &__button {
+            margin-top: 6rem;
+        }
+
     }
 
 }
@@ -948,7 +967,7 @@ a {
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
-                height: 290px;
+                min-height: 320px;
                 min-width: 323px;
                 margin-right: 1rem;
 
@@ -1010,6 +1029,7 @@ a {
                 &.blue {
                     background: #0000F0;
                     color: white;
+
 
                 }
 
@@ -1098,6 +1118,11 @@ a {
                         border-radius: 75px;
                         border: 1px solid black;
 
+                        &:hover {
+                            color: white;
+                            background-color: black;
+                        }
+
                         &.wide {
                             margin: 0;
                             margin-top: 1rem;
@@ -1106,6 +1131,11 @@ a {
                         &.blue {
                             color: white;
                             border-color: white;
+
+                            &:hover {
+                                color: black;
+                                background-color: white;
+                            }
                         }
                     }
                 }
