@@ -227,7 +227,7 @@ html {
   color: #ffca9f;
 }
 .section {
-  padding: 160px 2rem;
+  padding: 120px 2rem;
 }
 @media (max-width: 768px) {
   .section {
@@ -236,7 +236,7 @@ html {
 }
 .section.fullwidth {
   padding: 0;
-  padding-bottom: 160px;
+  padding-bottom: 120px;
 }
 .section.nopadding {
   padding-top: 0;
@@ -731,6 +731,7 @@ a:hover {
 .footer {
   background: #0000F0;
   color: white;
+  padding: 60px 2rem;
 }
 .footer__wrapper {
   max-width: 1280px;
