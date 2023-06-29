@@ -832,8 +832,8 @@ a:hover {
   }
 }
 .pricing__wrapper__row.top {
-  margin-bottom: 6rem;
-  padding-bottom: 6rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #CCC;
 }
 .pricing__wrapper__row__col {
@@ -915,8 +915,15 @@ a:hover {
   max-width: 352px;
 }
 .pricing__wrapper__row__col__top__title.wide {
-  max-width: 100%;
-  text-align: left;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  line-height: 34px;
+  margin-bottom: 1rem;
+}
+.pricing__wrapper__row__col__top__title.wide strong {
+  font-weight: bold;
 }
 .pricing__wrapper__row__col__top__bigtitle {
   font-size: 24px;
@@ -926,7 +933,7 @@ a:hover {
 }
 .pricing__wrapper__row__col__top__bigtitle.wide {
   max-width: 100%;
-  text-align: left;
+  text-align: center;
   margin: 2rem 0;
 }
 .pricing__wrapper__row__col__top__subtitle {
@@ -936,14 +943,18 @@ a:hover {
 }
 .pricing__wrapper__row__col__top__subtitle.wide {
   max-width: 100%;
-  text-align: left;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
 }
 .pricing__wrapper__row__col__top__link {
   display: block;
-  margin-top: 2rem;
   color: black;
   font-size: 20px;
   font-weight: bold;
+  width: 235px;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 .pricing__wrapper__row__col__top__link svg {
   margin-left: 0.6rem;
@@ -956,7 +967,7 @@ a:hover {
 }
 .pricing__wrapper__row__col__bottom__price.wide {
   max-width: 100%;
-  text-align: left;
+  text-align: center;
   margin-top: 3rem;
 }
 .pricing__wrapper__row__col__bottom__price span {
@@ -984,7 +995,6 @@ a:hover {
   background-color: black;
 }
 .pricing__wrapper__row__col__bottom__button.wide {
-  margin: 0;
   margin-top: 1rem;
 }
 .pricing__wrapper__row__col__bottom__button.blue {
