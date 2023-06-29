@@ -571,7 +571,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 8rem 0;
+  margin: 4rem 0;
   margin-bottom: 0;
 }
 @media (max-width: 768px) {
